@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E163f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cqO-vI-Xhs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--reiner_ccid_via_dk_sample-->
+        <scene sceneID="uze-YY-wnA">
+            <objects>
+                <viewController title="reiner_ccid_via_dk_sample" id="bwX-NM-Sxm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ej6-dH-Nhd"/>
+                        <viewControllerLayoutGuide type="bottom" id="aev-TG-Hgf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q0V-Gt-57r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8X-So-xyi">
+                                <rect key="frame" x="16" y="72" width="212" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SECODER INFO" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Or8-tg-mU0" kind="show" id="563-pY-FJ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqn-jb-vP6">
+                                <rect key="frame" x="16" y="133" width="212" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CCID VIA SECODER3" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i8Q-OW-GCS" kind="show" id="sSk-yK-1j5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-2S-RWG">
+                                <rect key="frame" x="16" y="188" width="212" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HHD VIA SECODER3" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RhD-OC-PTY" kind="show" id="Ddn-YF-KPQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWB-vX-Rif">
+                                <rect key="frame" x="18" y="236" width="208" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="EGK VIA CCID" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JrA-dA-6Bc" kind="show" id="obL-Ty-Ix4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNq-MQ-BvH">
+                                <rect key="frame" x="16" y="286" width="210" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ESC CCID" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1VK-r0-HUd" kind="show" id="gx3-Mf-QSS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1AZ-Jg-MQl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RqW-6A-xFy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="-492.50374812593708"/>
+        </scene>
+        <!--SECODER INFO-->
+        <scene sceneID="eqy-Hc-fT9">
+            <objects>
+                <viewController title="SECODER INFO" id="Or8-tg-mU0" customClass="Secoder3TestPage" customModule="reiner_ccid_via_dk_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oly-wg-Fv7"/>
+                        <viewControllerLayoutGuide type="bottom" id="fTs-Rc-aCz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="elO-WJ-L9F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDw-14-gg8">
+                                <rect key="frame" x="16" y="72" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SELECT READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openDeviceSelection" destination="Or8-tg-mU0" eventType="touchUpInside" id="wOz-34-TDx"/>
+                                    <segue destination="XXl-Yg-cWI" kind="show" id="nRY-PH-kVz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvZ-67-BWg">
+                                <rect key="frame" x="16" y="149" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH PRE SELECTED READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithSelectedReader" destination="Or8-tg-mU0" eventType="touchUpInside" id="6Ze-a5-pev"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kt3-gL-o6L">
+                                <rect key="frame" x="16" y="220" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH CLOSEST READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithClosestReader" destination="Or8-tg-mU0" eventType="touchUpInside" id="HJU-cs-vY2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ioy-aJ-BWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="-1266"/>
+        </scene>
+        <!--CCID VIA SECODER 3-->
+        <scene sceneID="jRf-go-DJB">
+            <objects>
+                <viewController title="CCID VIA SECODER 3" id="i8Q-OW-GCS" customClass="CCIDTestPage" customModule="reiner_ccid_via_dk_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mSp-d7-Nic"/>
+                        <viewControllerLayoutGuide type="bottom" id="gSx-fl-o6U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MGC-he-rvp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7q-mD-ahU">
+                                <rect key="frame" x="16" y="72" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SELECT READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openDeviceSelection" destination="i8Q-OW-GCS" eventType="touchUpInside" id="dDT-qZ-0He"/>
+                                    <segue destination="XXl-Yg-cWI" kind="show" id="EED-QK-m6b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzT-e7-Q4N">
+                                <rect key="frame" x="16" y="149" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH PRE SELECTED READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithSelectedReader" destination="i8Q-OW-GCS" eventType="touchUpInside" id="LVO-bc-JwS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7v-pJ-5wb">
+                                <rect key="frame" x="16" y="220" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH CLOSEST READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithClosestReader" destination="i8Q-OW-GCS" eventType="touchUpInside" id="Akj-2d-DKx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fz-b7-Mb3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="-492"/>
+        </scene>
+        <!--HHD VIA SECODER3-->
+        <scene sceneID="X8U-z9-ctN">
+            <objects>
+                <viewController title="HHD VIA SECODER3" id="RhD-OC-PTY" customClass="HHDTestPage" customModule="reiner_ccid_via_dk_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wvt-nA-tTk"/>
+                        <viewControllerLayoutGuide type="bottom" id="kvq-pT-PGa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6rh-rO-iaH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEk-YA-wuj">
+                                <rect key="frame" x="16" y="72" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SELECT READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openDeviceSelection" destination="RhD-OC-PTY" eventType="touchUpInside" id="xCj-GQ-mxp"/>
+                                    <segue destination="XXl-Yg-cWI" kind="show" id="iPr-7v-OGt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPm-sX-Jvj">
+                                <rect key="frame" x="16" y="149" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH PRE SELECTED READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithSelectedReader" destination="RhD-OC-PTY" eventType="touchUpInside" id="zvT-20-Hi2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGV-KK-K8O">
+                                <rect key="frame" x="16" y="220" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH CLOSEST READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithClosestReader" destination="RhD-OC-PTY" eventType="touchUpInside" id="7mt-If-RIj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5iY-yQ-eC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="256"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GYj-BO-QGH">
+            <objects>
+                <navigationController id="cqO-vI-Xhs" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fhk-1b-4Cg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bwX-NM-Sxm" kind="relationship" relationship="rootViewController" id="DFi-qJ-QfK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KbJ-S4-D2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-660" y="-492"/>
+        </scene>
+        <!--Leser-->
+        <scene sceneID="Myh-Gc-arj">
+            <objects>
+                <viewController storyboardIdentifier="c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XXl-Yg-cWI" customClass="BluetoothReaderSelection" customModule="reiner_ccid_via_dk_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pN5-4K-uYn"/>
+                        <viewControllerLayoutGuide type="bottom" id="05a-JF-vT7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="11L-ST-Tsu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ReaderView" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="1Tr-5S-XSh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="877"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="877" id="4gN-pG-Wtx"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" textLabel="9B8-M5-Tfa" detailTextLabel="iQG-Ym-WZQ" style="IBUITableViewCellStyleSubtitle" id="r6z-9h-3bj">
+                                        <rect key="frame" x="0.0" y="56" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ReaderTableCell" tableViewCell="r6z-9h-3bj" id="3Nr-Qj-fdm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9B8-M5-Tfa">
+                                                    <rect key="frame" x="15" y="5" width="32" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iQG-Ym-WZQ">
+                                                    <rect key="frame" x="15" y="25" width="41" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="11L-ST-Tsu" id="t0o-0E-FDB"/>
+                                    <outlet property="delegate" destination="11L-ST-Tsu" id="TH4-Sr-eXo"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFe-pd-ghT">
+                                <rect key="frame" x="16" y="84" width="82" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="KFS-sU-30c"/>
+                                    <constraint firstAttribute="height" constant="36" id="pBR-UO-IIh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Suchen" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scanForReaders" destination="XXl-Yg-cWI" eventType="touchUpInside" id="J9p-XX-Hxs"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2Ef-2o-Ret">
+                                <rect key="frame" x="322" y="85" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suchen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bB-Wf-QcL">
+                                <rect key="frame" x="134.5" y="84.5" width="58" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Koppeln" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4z0-zZ-93X">
+                                <rect key="frame" x="131.5" y="84.5" width="62.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4z0-zZ-93X" firstAttribute="leading" secondItem="5bB-Wf-QcL" secondAttribute="leading" constant="-3" id="3g0-lG-mYT"/>
+                            <constraint firstItem="fFe-pd-ghT" firstAttribute="top" secondItem="pN5-4K-uYn" secondAttribute="bottom" constant="20" id="7ck-nL-0Ey"/>
+                            <constraint firstItem="fFe-pd-ghT" firstAttribute="baseline" secondItem="4z0-zZ-93X" secondAttribute="baseline" constant="8" id="B9b-pt-VFw"/>
+                            <constraint firstItem="fFe-pd-ghT" firstAttribute="top" secondItem="11L-ST-Tsu" secondAttribute="top" constant="77" id="HPu-Kt-Apq"/>
+                            <constraint firstItem="1Tr-5S-XSh" firstAttribute="top" secondItem="11L-ST-Tsu" secondAttribute="top" constant="64" id="L2m-D8-gyh"/>
+                            <constraint firstItem="1Tr-5S-XSh" firstAttribute="top" secondItem="2Ef-2o-Ret" secondAttribute="bottom" constant="-58" id="OiF-YQ-CaL"/>
+                            <constraint firstItem="1Tr-5S-XSh" firstAttribute="top" secondItem="11L-ST-Tsu" secondAttribute="top" constant="94" id="VIR-NU-cqe"/>
+                            <constraint firstItem="2Ef-2o-Ret" firstAttribute="trailing" secondItem="11L-ST-Tsu" secondAttribute="trailingMargin" id="Yez-An-eZI"/>
+                            <constraint firstAttribute="trailing" secondItem="1Tr-5S-XSh" secondAttribute="trailing" id="ZIv-4c-BHg"/>
+                            <constraint firstItem="1Tr-5S-XSh" firstAttribute="leading" secondItem="11L-ST-Tsu" secondAttribute="leading" id="ZzD-5N-qU5"/>
+                            <constraint firstItem="fFe-pd-ghT" firstAttribute="leading" secondItem="11L-ST-Tsu" secondAttribute="leadingMargin" id="bIu-74-S2y"/>
+                            <constraint firstItem="1Tr-5S-XSh" firstAttribute="top" secondItem="fFe-pd-ghT" secondAttribute="bottom" constant="37" id="e1Y-Kw-cuF"/>
+                            <constraint firstAttribute="trailing" secondItem="4z0-zZ-93X" secondAttribute="trailing" constant="181" id="go4-9M-lDp"/>
+                            <constraint firstItem="1Tr-5S-XSh" firstAttribute="top" secondItem="5bB-Wf-QcL" secondAttribute="bottom" constant="-41" id="tRJ-9Z-cGc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VIR-NU-cqe"/>
+                                <exclude reference="e1Y-Kw-cuF"/>
+                                <exclude reference="HPu-Kt-Apq"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Leser" id="xaI-sJ-dwz"/>
+                    <connections>
+                        <outlet property="_activityIndicator" destination="2Ef-2o-Ret" id="v7b-cA-gYN"/>
+                        <outlet property="koppelnLabel" destination="4z0-zZ-93X" id="DFB-AI-0cw"/>
+                        <outlet property="suchenButton" destination="fFe-pd-ghT" id="VPA-O6-kKf"/>
+                        <outlet property="suchenLabel" destination="5bB-Wf-QcL" id="ByV-Rr-fSK"/>
+                        <outlet property="tableView" destination="1Tr-5S-XSh" id="FAO-lc-tv9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6fd-gj-giT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1563" y="-499"/>
+        </scene>
+        <!--HHD VIA SECODER3-->
+        <scene sceneID="ASd-PY-VQu">
+            <objects>
+                <viewController title="HHD VIA SECODER3" id="JrA-dA-6Bc" customClass="EGKviaCCIDTestPage" customModule="reiner_ccid_via_dk_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cYC-ck-g2F"/>
+                        <viewControllerLayoutGuide type="bottom" id="xz5-ZT-dHN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QnB-Tf-GMD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdD-hM-QQe">
+                                <rect key="frame" x="16" y="72" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SELECT READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openDeviceSelection" destination="JrA-dA-6Bc" eventType="touchUpInside" id="WoF-hX-rvM"/>
+                                    <segue destination="XXl-Yg-cWI" kind="show" id="Enm-hm-dGz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RA7-jX-YEe">
+                                <rect key="frame" x="16" y="149" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH PRE SELECTED READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithSelectedReader" destination="JrA-dA-6Bc" eventType="touchUpInside" id="igN-ZL-aaa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRd-6L-5ry">
+                                <rect key="frame" x="16" y="220" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH CLOSEST READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithClosestReader" destination="JrA-dA-6Bc" eventType="touchUpInside" id="6ex-D8-dO3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g7B-Vo-xap"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dJz-xd-6Xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="243"/>
+        </scene>
+        <!--CCID VIA SECODER 3-->
+        <scene sceneID="tfN-hA-e04">
+            <objects>
+                <viewController title="CCID VIA SECODER 3" id="1VK-r0-HUd" customClass="CCIDESCTestPage" customModule="reiner_ccid_via_dk_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cRW-XP-U42"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZjQ-NN-vNr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZXy-zJ-3oP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkG-bh-pMC">
+                                <rect key="frame" x="16" y="72" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SELECT READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openDeviceSelection" destination="1VK-r0-HUd" eventType="touchUpInside" id="yqt-3r-ZMC"/>
+                                    <segue destination="XXl-Yg-cWI" kind="show" id="IfL-ky-H57"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBC-g7-kPl">
+                                <rect key="frame" x="16" y="149" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH PRE SELECTED READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithSelectedReader" destination="1VK-r0-HUd" eventType="touchUpInside" id="OG1-ei-p0L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMf-eA-QAg">
+                                <rect key="frame" x="16" y="220" width="380" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START WITH CLOSEST READER" backgroundImage="Button-Play-icon.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startWithClosestReader" destination="1VK-r0-HUd" eventType="touchUpInside" id="MWW-2T-6xQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R0L-Lp-atW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1719" y="242"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Button-Play-icon.png" width="256" height="256"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="IfL-ky-H57"/>
+    </inferredMetricsTieBreakers>
+</document>
